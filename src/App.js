@@ -9,6 +9,26 @@ const App = () => {
         <form>
           <input type="text" value={result} />
         </form>
+        <div className="keypad">
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
       </div>
     </>
   );
