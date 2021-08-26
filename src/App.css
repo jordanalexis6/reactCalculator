@@ -4,3 +4,9 @@
   font-family: "ZCOOL QingKe HuangYou", cursive;
   font-size: 18px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
