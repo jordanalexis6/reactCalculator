@@ -10,6 +10,8 @@ const App = () => {
 
   const clear = () => {};
 
+  const backspace = () => {};
+
   return (
     <>
       <div className="container">
@@ -18,7 +20,7 @@ const App = () => {
         </form>
         <div className="keypad">
           <button onClick={clear}>Clear</button>
-          <button onClick={handleClick}>C</button>
+          <button onClick={backspace}>C</button>
           <button name="/" onClick={handleClick}>
             &divide;
           </button>
