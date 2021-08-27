@@ -34,4 +34,7 @@ body {
 input[type="text"] {
   height: 75px;
   width: 250px;
+  background-color: gray;
+  border: 0px;
+  color: white;
 }
