@@ -51,7 +51,7 @@ const App = () => {
           <button name="6" onClick={handleClick}>
             6
           </button>
-          <button name="-" onClick={handleClick}>
+          <button className="highlight" name="-" onClick={handleClick}>
             &ndash;
           </button>
           <button name="1" onClick={handleClick}>
