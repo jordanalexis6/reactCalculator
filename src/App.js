@@ -12,7 +12,9 @@ const App = () => {
     setResult("");
   };
 
-  const backspace = () => {};
+  const backspace = () => {
+    setResult(result.slice(0, -1));
+  };
 
   return (
     <>
