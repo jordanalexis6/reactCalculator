@@ -74,7 +74,7 @@ const App = () => {
           <button name="." onClick={handleClick}>
             .
           </button>
-          <button className="highlight" onClick={handleClick} id="result">
+          <button className="highlight" onClick={calculate} id="result">
             =
           </button>
         </div>
