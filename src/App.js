@@ -21,7 +21,9 @@ const App = () => {
           <input type="text" value={result} />
         </form>
         <div className="keypad">
-          <button onClick={clear}>Clear</button>
+          <button onClick={clear} id="clear">
+            Clear
+          </button>
           <button onClick={backspace}>C</button>
           <button name="/" onClick={handleClick}>
             &divide;
