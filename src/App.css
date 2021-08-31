@@ -75,3 +75,7 @@ button:focus,
 button:active {
   outline: none;
 }
+
+.highlight {
+  color: #915683;
+}
