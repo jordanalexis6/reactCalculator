@@ -54,3 +54,17 @@ input[type="text"] {
   grid-row: 5;
   color: #262834;
 }
+
+#backspace {
+  color: #262834;
+}
+
+button {
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262834;
+  color: white;
+  font-weight: 500;
+}
