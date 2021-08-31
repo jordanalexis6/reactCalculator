@@ -68,3 +68,10 @@ button {
   color: white;
   font-weight: 500;
 }
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
