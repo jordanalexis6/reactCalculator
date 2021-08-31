@@ -24,7 +24,9 @@ const App = () => {
           <button className="highlight" onClick={clear} id="clear">
             Clear
           </button>
-          <button onClick={backspace}>C</button>
+          <button className="highlight" onClick={backspace}>
+            C
+          </button>
           <button name="/" onClick={handleClick}>
             &divide;
           </button>
