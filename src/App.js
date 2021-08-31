@@ -8,7 +8,9 @@ const App = () => {
     setResult(result.concat(e.target.name));
   };
 
-  const clear = () => {};
+  const clear = () => {
+    setResult("");
+  };
 
   const backspace = () => {};
 
@@ -66,7 +68,9 @@ const App = () => {
           <button name="." onClick={handleClick}>
             .
           </button>
-          <button onClick={handleClick}>=</button>
+          <button onClick={handleClick} id="result">
+            =
+          </button>
         </div>
       </div>
     </>
