@@ -39,7 +39,7 @@ const App = () => {
           <button name="9" onClick={handleClick}>
             9
           </button>
-          <button name="*" onClick={handleClick}>
+          <button className="highlight" name="*" onClick={handleClick}>
             &times;
           </button>
           <button name="4" onClick={handleClick}>
