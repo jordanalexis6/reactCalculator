@@ -16,6 +16,14 @@ const App = () => {
     setResult(result.slice(0, -1));
   };
 
+  const calculate = () => {
+    try {
+      setResult(eval(result).toString());
+    } catch (err) {
+      setResult("Error");
+    }
+  };
+
   return (
     <>
       <div className="container">
