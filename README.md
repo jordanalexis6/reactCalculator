@@ -9,6 +9,7 @@
     <li>HTML/CSS</li>
     <li>React</li>
     <li>Node</li>
+    <li>Heroku</li>
 </ul>
 <h2>📓 Contributor(s)</h2>
 <table>
